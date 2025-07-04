@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    background-color: #EFEFEF;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#hero img {
+    max-width: 50%;
+    box-shadow: 25px 25px rgb(98, 0, 255);
+    border: 10px black solid;
+}
+
+#hero h2 {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hero span {
+    color: rgb(98, 0, 255);
+    transition: ease;
+    display: inline-block;
+    transition: 0.8s;
+}
+
+#hero span:hover {
+    transform: rotate(180deg);
+    cursor: default;
+}
+
+#About_me_button {
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 6px dashed rgb(98, 0, 255);
+    color: rgb(98, 0, 255);
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#About_me_button:hover {
+    background-image: linear-gradient(rgb(98, 0, 255));
+    border: 6px dashed rgb(0, 0, 0);
+    color: black;
+    cursor: pointer;
+}
